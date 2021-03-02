@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: system-mis
+  profiles:
+    include: @profile.active@ #此处由maven的环境选择决定
+
+
+
